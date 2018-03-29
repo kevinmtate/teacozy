@@ -2,7 +2,7 @@ body, a{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
-    /*background-color: black;   ADD IN AFTER DONE WITH HEADER AND DELETE FROM HEADER STYLING  */
+    background-color: black;
     opacity: 0.9;
 
     /* because webkit: */ margin: 0px;
@@ -11,10 +11,10 @@ body, a{
 /* Header */
 
 header {
-    background-color: black;
     height: 69px;
     border-bottom: 1px solid seashell;
     width: 100%;
+    position: fixed;
 }
 
 header img {
@@ -23,6 +23,34 @@ header img {
 }
 
 nav {
-    display: inline;
+    position: relative;
+    top: 20px;
     float: right;
+}
+
+nav span {
+    padding: 10px;
+}
+
+
+/* Content section */
+
+.content-container {
+    padding-top: 69px;
+}
+
+/* Mission section */
+
+.mission {
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mission-banner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
