@@ -1,0 +1,28 @@
+body, a{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    /*background-color: black;   ADD IN AFTER DONE WITH HEADER AND DELETE FROM HEADER STYLING  */
+    opacity: 0.9;
+
+    /* because webkit: */ margin: 0px;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    padding: 10px;
+}
+
+nav {
+    display: inline;
+    float: right;
+}
