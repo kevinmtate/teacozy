@@ -94,3 +94,43 @@ h2, h4 {
 
 
 /* Locations */
+
+#locations h2 {
+    margin: 0;
+}
+
+#locations {
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+}
+
+.locations-content {
+    padding: 75px;
+}
+
+.location-section {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    background-color: black;
+    opacity: 1;
+    display: inline-block;
+}
+
+
+/* Footer */
+
+footer {
+    height: 200px;
+    text-align: center;
+}
+
+
+/* Signature */
+
+.signature {
+    text-align: left;
+    margin: 20px;
+}
